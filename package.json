@@ -1,0 +1,21 @@
+{
+  "name": "shreeram-solar",
+  "version": "1.0.0",
+  "description": "Maharaj Solar Premium White-Themed Highly Animated Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=5500",
+    "dev": "npx live-server --port=5500",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "solar",
+    "maharaj-solar",
+    "rajasthan"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
