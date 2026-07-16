@@ -400,6 +400,7 @@ a {
 .hero-text h1 {
     font-size: clamp(3rem, 7vw, 5.2rem);
     font-weight: 800;
+    line-height: 1.25;
     letter-spacing: -0.05em;
     margin-bottom: 24px;
 }
@@ -408,6 +409,7 @@ a {
     display: inline-block;
     position: relative;
     color: var(--orange-primary);
+    padding-bottom: 0.05em;
 }
 
 .hero-text h1 em {
