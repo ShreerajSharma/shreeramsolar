@@ -1,5 +1,5 @@
 /* 
-   Maharaj Solar — Premium Interactive Javascript Overhaul
+   Shreeram Solar — Premium Interactive Javascript Overhaul
    Provides world-class scroll reveal, counter animations, responsive slider cockpit math, 
    dynamic localStorage data bindings, and clean feedback toasts.
 */
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: "Rajesh Sharma",
                 role: "Homeowner, Murlipura",
-                quote: "My monthly electricity bill dropped from ₹4,500 to just ₹350 after Maharaj Solar installed a 5kW system. The team completed the work in just 2 days. Best investment!",
+                quote: "My monthly electricity bill dropped from ₹4,500 to just ₹350 after Shreeram Solar installed a 5kW system. The team completed the work in just 2 days. Best investment!",
                 img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&q=80"
             },
             {
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: "Priya Meena",
                 role: "Resident, Vaishali Nagar",
-                quote: "Their guidance regarding government subsidy applications was clean. Maharaj Solar handled all DISCOM paperwork. Highly recommended for home installations.",
+                quote: "Their guidance regarding government subsidy applications was clean. Shreeram Solar handled all DISCOM paperwork. Highly recommended for home installations.",
                 img: ""
             }
         ];
@@ -362,7 +362,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     e.preventDefault();
                     const idx = e.target.getAttribute('data-index');
                     const post = blogs[idx];
-                    alert(`📖 Maharaj Solar Reader:\n\n${post.title.toUpperCase()}\n\n${post.content}`);
+                    alert(`📖 Shreeram Solar Reader:\n\n${post.title.toUpperCase()}\n\n${post.content}`);
                 });
             });
         } else {

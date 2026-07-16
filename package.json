@@ -1,7 +1,7 @@
 {
   "name": "shreeram-solar",
   "version": "1.0.0",
-  "description": "Maharaj Solar Premium White-Themed Highly Animated Website",
+  "description": "Shreeram Solar Premium White-Themed Highly Animated Website",
   "main": "index.html",
   "scripts": {
     "start": "npx live-server --port=5500",
@@ -10,7 +10,7 @@
   },
   "keywords": [
     "solar",
-    "maharaj-solar",
+    "shreeram-solar",
     "rajasthan"
   ],
   "author": "",

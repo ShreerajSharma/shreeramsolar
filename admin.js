@@ -1,5 +1,5 @@
 /* 
-   Maharaj Solar — Premium SaaS Dashboard Controller
+   Shreeram Solar — Premium SaaS Dashboard Controller
    Provides clean login authentication, list rendering, CRUD editing, 
    and settings synchronization with local databases.
 */
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const id = adminIdInput.value.trim();
             const pass = adminPassInput.value.trim();
 
-            if (id === 'mahrajsolar@2004' && pass === '2004@maharajsolar') {
+            if (id === 'shreeramsolar@2004' && pass === '2004@shreeramsolar') {
                 sessionStorage.setItem('admin_logged_in', 'true');
                 if (loginScreen) loginScreen.style.display = 'none';
                 if (adminDashboard) adminDashboard.style.display = 'flex';
@@ -385,9 +385,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const seoForm = document.getElementById('admin-seo-form');
     if (seoForm) {
         let currentSEO = JSON.parse(localStorage.getItem('sr_seo_settings')) || {
-            title: "Maharaj Solar | India's Most Trusted Solar Company",
-            description: "Maharaj Solar is the top solar company in Rajasthan, providing expert solar panel installation for homes, businesses, and industries in Jaipur, Sikar, and across Rajasthan.",
-            keywords: "solar company in rajasthan, top solar installation in rajasthan, maharaj solar, solar panels jaipur, solar panels Sikar"
+            title: "Shreeram Solar | India's Most Trusted Solar Company",
+            description: "Shreeram Solar is the top solar company in Rajasthan, providing expert solar panel installation for homes, businesses, and industries in Jaipur, Sikar, and across Rajasthan.",
+            keywords: "solar company in rajasthan, top solar installation in rajasthan, shreeram solar, solar panels jaipur, solar panels Sikar"
         };
 
         document.getElementById('seo-title').value = currentSEO.title;
